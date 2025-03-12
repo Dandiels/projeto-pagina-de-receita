@@ -22,7 +22,7 @@ body {
     margin: 48px auto 28px;
 }
 
-img {
+div img {
     border-radius: 16px;
     margin-bottom: 24px;
 }
@@ -58,6 +58,17 @@ ul {
     padding-left: 26.5px;
 }
 
-h2, p, li {
+footer {
+    color: #F0E8C2;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
+    margin: 0 2px 3.5px;
+}
+
+h2, p, li, footer {
     line-height: 150%;
 }
