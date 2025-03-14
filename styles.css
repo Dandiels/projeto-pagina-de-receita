@@ -1,74 +1,89 @@
+/* Resetando margens e preenchimentos padrão */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Definição da fonte principal e cor padrão do texto */
 :root {
     font-family: "Alice", serif;
     color: #573A37;
 }
 
+/* Configuração do fundo da página */
 body {
     background-image: url('assets/bg-image.jpg');
     background-size: cover;
 }
 
+/* Estilização do contêiner principal da página */
 #page {
     box-sizing: border-box;
-    width: 800px;
+    width: 800px; /* Definição fixa de largura */
     padding: 24px;
     background-color: #F0E8C2;
     border-radius: 24px;
-    margin: 48px auto 28px;
+    margin: 48px auto 28px; /* Centraliza a página */
 }
 
+/* Estilo da imagem principal */
 div img {
-    border-radius: 16px;
-    margin-bottom: 24px;
+    border-radius: 16px; /* Borda arredondada */
+    margin-bottom: 24px; /* Espaçamento inferior */
 }
 
+/* Ajuste do layout interno do conteúdo da receita */
 main {
     padding: 0 24px 24px;
 }
 
+/* Adiciona espaçamento entre seções */
 section + section {
     margin-top: 24px;
 }
 
+/* Estilização do título principal */
 h1 {
     line-height: 140%;
     font-size: 40px;
 }
 
+/* Adiciona espaçamento entre parágrafos dentro da seção "about" */
 #about p + p {
     margin-top: 12px;
 }
 
+/* Estilização dos subtítulos */
 h2 {
     font-size: 24px;
 }
 
+/* Definição das cores dos títulos */
 h1, h2 {
     color: #291B1A;
     font-weight: 400;
     margin-bottom: 4px;
 }
 
+/* Ajusta espaçamento para a lista de ingredientes */
 ul {
     padding-left: 26.5px;
 }
 
+/* Estilização do rodapé */
 footer {
     color: #F0E8C2;
     text-align: center;
     margin-bottom: 48px;
 }
 
+/* Ajuste do alinhamento da imagem de coração no rodapé */
 footer img {
     vertical-align: middle;
     margin: 0 2px 3.5px;
 }
 
+/* Define espaçamento entre linhas para os demais elementos */
 h2, p, li, footer {
     line-height: 150%;
 }
