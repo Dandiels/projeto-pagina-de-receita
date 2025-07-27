@@ -5,6 +5,7 @@ Este é um projeto simples de uma página de receita criada com HTML e CSS, para
 ## Tecnologias Utilizadas
 - **HTML5**: Estrutura da página e organização do conteúdo.
 - **CSS3**: Estilização da página, incluindo cores, espaçamento e fontes.
+- **Google Fonts**: Fonte "Alice" para melhor visual.
 
 ## Estrutura do Projeto
 O projeto contém os seguintes arquivos principais:
